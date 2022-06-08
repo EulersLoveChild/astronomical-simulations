@@ -4,7 +4,9 @@ Below, I document some astronomical simulations. This was done using Newtonian, 
 
 ## 1) 2D *N*-Body Simulation (WITH Collisions)
 
-![](https://media.giphy.com/media/vIvLXYWTT9ZxPYuDuS/giphy.gif)
+![](https://media.giphy.com/media/vIvLXYWTT9ZxPYuDuS/giphy.gif).
+
+NOTE: this simulation does not take relativity into account
  
 In this simulation, I let 10 objects with the same mass interact via gravity and observe their interaction. This code works with any number of particles (hence the title of *N*-body simulation). As mentioned in the title, this program takes collisions into account. Below, I list some of my thoughts about this project and some specifics.
 
@@ -12,9 +14,9 @@ In this simulation, I let 10 objects with the same mass interact via gravity and
 
 - Another limitation of this code is *n*-way collisions, where *n* >= 3 (Note that this *n* != *N*). This is because I have *n* unknowns (the final velocities of the particles involved in the collision) and 2 equations (conservation of momentum and energy). I tried looking for some equations online but did not come across any. If I figure out this problem, I will fix it.
 
-- The mass of each particle was 10^(5) kg
+- The mass of each particle was 10^(5) kg.
 
-- The softening parameter was 10 m
+- The softening parameter was 10 m.
 
 - The initial positions and velocities were randomized, with each following a bell curve with mean 0 and variance of 1.
  
