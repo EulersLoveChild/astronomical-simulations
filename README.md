@@ -1,4 +1,4 @@
-# Classical Mechanics Simulations
+# Astronomical Simulations
 
 Below, I document some astronomical simulations. This was done using Newtonian, Lagrangian, and/or Hamiltonian mechanics. 
 
